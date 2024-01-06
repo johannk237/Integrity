@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:integrity/components/navbar.dart';
-import 'package:integrity/components/side_menu.dart';
-import 'package:integrity/entry_point.dart';
 import 'package:integrity/home.dart';
 
 void main() {
@@ -20,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const EntryPoint(),
+      home: const MyHomePage(title: 'Integrity',),
     );
   }
 }

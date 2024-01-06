@@ -13,13 +13,6 @@ class SideMenuTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Padding(
-          padding: EdgeInsets.only(left: 24.0),
-          child: Divider(
-            color: Colors.white30,
-            height: 1,
-          ),
-        ),
         Stack(
           children: [
             Positioned(
